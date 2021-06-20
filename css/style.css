@@ -1,0 +1,18 @@
+body {
+  width: 960px;
+  border: 2px solid white;
+  margin: auto;
+  background-color: black;
+}
+
+h1,h2,h3{
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+ul,ol{
+  color: white;
+}
