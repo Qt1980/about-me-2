@@ -16,5 +16,46 @@ if(questionOne === 'no' || questionOne === 'n') {
   console.log('That\'s correct! It is an Arab name!');
   alert('That\'s correct! It is an Arab name!');
 }else if(questionOne === 'yes' || questionOne === 'y') {
-  alert('Oh no! How many English people do you know with a name like mine?!');
+  alert('Really?! How many English people do you know with a name like mine?!');
+  console.log('Yeah, I\'m not sure how you thought this answer was a yes');
+}
+
+var questionTwo = prompt('Now that that\'s over let\'s move on to the next question. Do I live in Seattle?').toLowerCase();
+
+if(questionTwo === 'yes' || questionTwo === 'y') {
+  console.log('That is right. Good Job!');
+  alert('That is right. Good Job!');
+}else if(questionTwo === 'no' || questionTwo === 'n') {
+  alert('Although I am not originally from Seattle, I do currently live in Seattle. Nice try though.');
+  console.log('I would say that was close but there was only two choices.');
+}
+
+var questionThree = prompt('Moving right along. Do you think I am a gamer?').toLowerCase();
+
+if(questionThree === 'yes' || questionThree === 'y') {
+  alert('Awesome Choice! I love playing video games!');
+  console.log('Sweet you answered correctly!');
+}else if(questionThree === 'no' || questionThree === 'n') {
+  alert('Sometimes I wish I weren\'t because playing video games can be so addictive!');
+  console.log('Wrong! I sure do and likely will until my thumbs break!');
+}
+
+var questionFour = prompt('When I was young I was in a choir. Do you think I\'m a good singer?').toLowerCase();
+
+if(questionFour === 'yes' || questionFour === 'y'){
+  alert('You better believe it and I love to sing! I also write songs and hope to make an album one day!');
+  console.log('Yes you bet I am!');
+}else if(questionFour === 'no' || questionFour === 'n'){
+  alert('Haha well I certainly know some people who can\'t but I\'m not one of them! Nice try though.');
+  console.log('Of course I can!');
+}
+
+var questionFive = prompt('Speaking of singing, I also enjoy music and dancing. Do you think I\'m a good dancer?').toLowerCase();
+
+if(questionFive === 'yes' || questionFive === 'y') {
+  alert('Yes and I love dancing to really good EDM and house music the most!');
+  console.log('Oh yeah I am!')
+}else if(questionFive === 'no' || questionFive === 'n') {
+  alert('How would you know!? Lol, jeez you little twerp. I am in fact an excellent dancer!');
+  console.log('I think you might be projecting!');
 }
