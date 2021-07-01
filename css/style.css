@@ -1,37 +1,71 @@
 body {
-  /* width: 960px; */
   border: 2px solid black;
-  /* margin: auto; */
+  margin: auto;
   background-color: lightcyan;
 }
 
+.img {
+  width: 500px;
+  margin: 10px;
+}
+
 .h1 {
-  border: 2px solid black;
   background-color: black;
   padding-left: 750px;
   color: white;
   font-size: 3em;
 }
 
-.img {
-  width: 500px;
-  padding-top: 10px;
-}
-
-.h2 {
+.h2-bio {
+  margin-left: 10px;
   font-size: 40px;
 }
 
-p {
-  border:2px solid blue;
-  color: black;
+.h3-edu {
+  margin-left: 10px;
+  font-size: 40px;
+}
+
+.h4-career {
+  margin-left: 10px;
+  font-size: 40px;
+}
+
+.h5-goals {
+  margin-left: 10px;
+  font-size: 40px;
+}
+
+.para1 {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 700px;
+  font-size: 20px;
+}
+
+.para2 {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  width: 700px;
+  font-size: 20px;
+}
+
+.para3 {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  width: 700px;
+  font-size: 20px;
 }
 
 ul,ol{
-  border: 2px solid green;
-  color: black;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
 }
 
 footer{
-  color: black;
+  margin-left: 10px;
 }
