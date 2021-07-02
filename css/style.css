@@ -5,6 +5,7 @@ body {
 }
 
 .img {
+  border: 2px solid black;
   width: 500px;
   margin: 10px;
 }
@@ -37,31 +38,31 @@ body {
 }
 
 .para1 {
-  margin-top: 20px;
-  margin-left: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
   width: 700px;
   font-size: 20px;
 }
 
 .para2 {
-  margin-top: 20px;
-  margin-left: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
   margin-bottom: 20px;
   width: 700px;
   font-size: 20px;
 }
 
 .para3 {
-  margin-top: 20px;
-  margin-left: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
   margin-bottom: 20px;
   width: 700px;
   font-size: 20px;
 }
 
 ul,ol{
-  margin-top: 20px;
-  margin-left: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
   margin-bottom: 20px;
   font-size: 20px;
 }
