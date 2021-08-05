@@ -1,5 +1,7 @@
 'use strict';
 
+var score = 0;
+
 //get the username of the guest visiting the site and offer greeting.
 //write 5 questions that accept yes or no or y/n in any case (uppercase or lowercase).
 //The below line of code uses a dot chaining method (toLowerCase()) in order to normalize the users input so that whether they input No, or N or n etc the input will all be accepted and changed to lowercase.
@@ -58,4 +60,21 @@ if(questionFive === 'yes' || questionFive === 'y') {
 }else if(questionFive === 'no' || questionFive === 'n') {
   alert('How would you know!? Lol, jeez you little twerp. I am in fact an excellent dancer!');
   console.log('I think you might be projecting!');
+}
+
+//question six
+for(var i = 0; i < 4; i++){
+  var questionSix = prompt('Next up is a question involving numbers. How many years did I spend in the U.S. Navy? You get 4 guesses. Good Luck!');
+  var yearsInService = 8;
+  if(questionSix === yearsInService) {
+    alert('You got it! I spent 8 years in the Navy. 3 of those were aboard the USS Blue Ridge located in Japan, 1 year in Bahrain and the last 4 in Washington D.C.');
+    score++;
+    break;
+  }else if(i < 3 && questionSix < yearsInService) {
+    alert('Nice try but you need to guess a little higher!');
+  }else if(i > 3 && questionSix > yearsInService) {
+    alert('Nope! Now you\'re too high! Bring it down a bit and guess again.');
+  }else if(i === 3) {
+    alert('Well you gave it your all but could\'nt guess the right number. I spent 8 years in the Navy!');
+  }
 }
